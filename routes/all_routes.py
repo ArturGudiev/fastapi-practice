@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .routes import router
+from .t1 import router1
 from .routes3 import router3
 
 combined_router = APIRouter()
