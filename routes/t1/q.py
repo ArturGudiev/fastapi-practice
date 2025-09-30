@@ -1,3 +1,3 @@
-from fastapi import APIRouter
-
-router1 = APIRouter()
+""" 
+    Создай router1 и добавь в него обработчик для пути /1, который возвращает {"message": "Hello World"}
+"""
