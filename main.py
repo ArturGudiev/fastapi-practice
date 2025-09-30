@@ -11,6 +11,6 @@ app = FastAPI(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello to the App"}
 
 app.include_router(combined_router) 
