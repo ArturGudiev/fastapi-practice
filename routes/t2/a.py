@@ -1,6 +1,4 @@
 from fastapi import APIRouter
-from typing import Optional
-
 router = APIRouter()
 
 @router.get("/t2/{item_id}")
